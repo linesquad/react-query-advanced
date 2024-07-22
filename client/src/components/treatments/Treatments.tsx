@@ -6,6 +6,7 @@ import { Treatment } from "./Treatment";
 export function Treatments() {
   // replace with data from React Query
   const treatments = useTreatments();
+
   return (
     <Box>
       <Heading mt={10} textAlign="center">
